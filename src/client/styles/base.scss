@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 2;
+}
+
+section {
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+.results {
+  background-color: #8c8888;
+  padding: 10px;
+  * {
+    margin: 20px 0;
+  }
+}
